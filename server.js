@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Serve static files
-app.use(express.static(path.join(__dirname, "Public")));
+app.use(express.static(path.join(__dirname, "public")));
 
 // Set the view engine to EJS
 app.set("view engine", "ejs");
